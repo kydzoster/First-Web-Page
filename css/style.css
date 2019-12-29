@@ -1,0 +1,57 @@
+body{
+  font-family: Arial;
+  color: slategrey;
+  background-color:cream;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 400%;
+  font-family: oblique;
+  color: black
+}
+
+h2 {
+  color: brown;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.box {
+  border: 6px solid red;
+  width: 100%;
+}
+
+p {
+  font-size: 15px;
+} 
+
+footer {
+  margin-top: 70px;
+}
+
+footer p {
+  text-align: center;
+  margin-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-back {
+  background-color: brown;
+  color: white;
+}
+
+@media screen and (max-width: 768px){
+  #container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+}
