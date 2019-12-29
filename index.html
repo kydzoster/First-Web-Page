@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mandalorian</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+    
+      <h1 align="center">Star<span style="color:blue;">Wars</span></h1>
+    
+      <img class="box" src="https://fee.org/media/36253/mandalorian-wideshot.jpg?center=0.257396449704142,0.52333333333333332&mode=crop&width=1920&rnd=132212239230000000">
+    
+
+    <p>The Mandalorian (also known as Star Wars: The Mandalorian) is an American space Western web television series that premiered on Disney+ on November 12, 2019. Set in the Star Wars universe, the series takes place five years after the events of Return of the Jedi and follows a Mandalorian bounty hunter beyond the reaches of the New Republic.</p>
+      </header>
+    
+      <section id="episodes" onmouseover="episodesHover()" onmouseout="episodesNormal()">
+    <h2>
+      Episodes & Directors 
+      <i class="fa fa-film" aria-hidden="true"></i></h2>
+    <div>
+      <ol>
+        <li>Chapter 1; <a href="https://en.wikipedia.org/wiki/Dave_Filoni" target="_blank">Dave Filoni</a></li>
+        
+        <li>Chapter 2 (The Child); <a href="https://en.wikipedia.org/wiki/Rick_Famuyiwa" target="_blank">Rick Famuyiwa</a></li>
+        
+        <li>Chapter 3 (The Sin); <a href="https://en.wikipedia.org/wiki/Deborah_Chow" target="_blank">Deborah Chow</a></li>
+        
+        <li>TBA; <a href="https://en.wikipedia.org/wiki/Bryce_Dallas_Howard" target="_blank">Bryce Dallas Howard</a></li>
+        
+        <li>TBA; <a href="https://en.wikipedia.org/wiki/Dave_Filoni" target="_blank">Dave Filoni</a></li>
+        
+        <li>TBA; <a href="https://en.wikipedia.org/wiki/Rick_Famuyiwa" target="_blank">Rick Famuyiwa</a></li>
+        
+        <li>TBA; <a href="https://en.wikipedia.org/wiki/Deborah_Chow" target="_blank">Deborah Chow</a></li>
+        
+        <li>TBA; <a href="https://en.wikipedia.org/wiki/Taika_Waititi" target="_blank">Taika Waititi</a></li>
+       </ol>  
+    </div>
+      </section>
+
+      <section id="cast" onmouseover="castHover()" onmouseout="castNormal()">
+    <h2>Main Cast <i class="fa fa-id-card" aria-hidden="true"></i></h2>
+    <div>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Pedro_Pascal" target="_blank">Pedro Pascal</a>; as the Mandalorian</li>
+
+        <li><a href="https://en.wikipedia.org/wiki/Carl_Weathers" target="_blank">Carl Weathers</a>; as Greef Karga aka Bounty Hunter Guildmaster</li>
+
+        <li><a href="https://en.wikipedia.org/wiki/Werner_Herzog" target="_blank">Werner Herzog</a>; as Imperial Remnant aka the Client</li>
+
+        <li><a href="https://en.wikipedia.org/wiki/Omid_Abtahi" target="_blank">Omid Abtahi</a>; as Dr. Pershing</li>
+
+        <li><a href="https://en.wikipedia.org/wiki/Nick_Nolte" target="_blank">Nick Nolte</a>; as the voice of Kuiil <i>"I have spoken!"</i></li>
+
+        <li><a href="https://en.wikipedia.org/wiki/Taika_Waititi" target="_blank">Taika Waititi</a>; as the voice of IG-11 <i>"I Will Initiate Self-Destruct!"</i></li>
+
+        <li><a href="https://en.wikipedia.org/wiki/Gina_Carano" target="_blank">Gina Carano</a>; as Cara Dune</li>
+
+        <li><a href="https://en.wikipedia.org/wiki/Giancarlo_Esposito" target="_blank">Giancarlo Esposito</a>; as Moff Gideon</li>
+      </ul>
+    </div>
+      </section>
+
+      <footer>
+  <p class="footer-back"><b>Created by: <i>Martins Silins</i></b></p>
+      </footer>
+    </div>
+  <script>
+  function episodesHover() {
+    document.getElementById('episodes').firstElementChild.firstElementChild.style.fontSize = "300%";
+  }
+
+  function episodesNormal() {
+    document.getElementById('episodes').firstElementChild.firstElementChild.style.fontSize = "100%";
+  }
+
+  function castHover() {
+    document.getElementById('cast').firstElementChild.firstElementChild.style.fontSize = "300%";
+  }
+
+  function castNormal() {
+    document.getElementById('cast').firstElementChild.firstElementChild.style.fontSize = "100%";
+  }
+  </script>
+  </body>
+</html>
